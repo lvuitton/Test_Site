@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Eco-Friendly Products</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+    <!-- Header & Nav Bar-->
+    <header>
+        <nav>
+             <div class = "nav-container">
+                <div class="logo">
+                    <a href="#">Logo</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+             </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>We want to hear from you!</h1>
+                <p>At EcoShop we're constantly looking for greener, more sustainable ways of living. If you have any recommendations contact us below</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h1>Contact Us</h1>
+                <p>If you have any questions or inquiries, feel free to reach out to us using the contact form below, or contact us directly through email or phone.</p>
+
+                <div class="contact-details">
+                    <p><strong>Email:</strong> support@ecoshopexample.com</p>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <p><strong>Address:</strong> 123 Green Street, EcoCity, Earth</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 EcoShop | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

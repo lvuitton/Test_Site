@@ -1,0 +1,121 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+#header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 1.2rem;
+}
+
+/* Product Review Section */
+#product-review {
+    padding: 40px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#product-review h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#product-review .intro {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.product-details ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.product-details li {
+    margin: 10px 0;
+}
+
+.review {
+    margin-top: 30px;
+}
+
+.review h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.cta {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+#footer p {
+    font-size: 1rem;
+}

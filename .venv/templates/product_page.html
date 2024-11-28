@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Products</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Eco-Friendly Products</h1>
+        </div>
+    </header>
+
+    <section class="product-selection">
+        <div class="container">
+            <h2>Choose a Product</h2>
+            <ul>
+                <li><a href="#" onclick="loadProductData(0)">Eco-Friendly Water Bottle</a></li>
+                <li><a href="#" onclick="loadProductData(1)">Organic Cotton Tote Bag</a></li>
+                <li><a href="#" onclick="loadProductData(2)">Bamboo Toothbrush</a></li>
+                <li><a href="#" onclick="loadProductData(3)">Solar-Powered Phone Charger</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <div class="container" id="product-details-container">
+            <!-- Product details will load here dynamically -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Eco-Friendly Products. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
